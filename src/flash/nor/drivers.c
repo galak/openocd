@@ -20,6 +20,7 @@
 #endif
 #include "imp.h"
 
+<<<<<<< HEAD
 extern const struct flash_driver aduc702x_flash;
 extern const struct flash_driver aducm360_flash;
 extern const struct flash_driver ambiqmicro_flash;
@@ -47,6 +48,7 @@ extern const struct flash_driver fespi_flash;
 extern const struct flash_driver jtagspi_flash;
 extern const struct flash_driver kinetis_flash;
 extern const struct flash_driver kinetis_ke_flash;
+extern const struct flash_driver rv32m1_flash;
 extern const struct flash_driver lpc2000_flash;
 extern const struct flash_driver lpc288x_flash;
 extern const struct flash_driver lpc2900_flash;
@@ -116,6 +118,7 @@ static const struct flash_driver * const flash_drivers[] = {
 	&jtagspi_flash,
 	&kinetis_flash,
 	&kinetis_ke_flash,
+	&rv32m1_flash,
 	&lpc2000_flash,
 	&lpc288x_flash,
 	&lpc2900_flash,
